@@ -1,0 +1,86 @@
+#home {
+  background-image: url("https://www.thespruceeats.com/thmb/IPz-vGjYi6_vyT1UyQBOLiaOFw8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/chocolate_hero1-d62e5444a8734f8d8fe91f5631d51ca5.jpg");
+  transform: scale(1);
+  background-size: contain;
+  position: sticky;
+  height: 500px;
+}
+#home h2, #home p {
+  max-width: 300px;
+  max-height: 200px;
+  color: deeppink;
+  overflow: auto;
+  display: flex;
+  font-weight: 900;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  text-shadow: khaki;
+  text-indent: calc(122);
+  text-rendering: auto;
+  font-style: unset;
+  background-color: bisque;
+  opacity: 0.6;
+}
+a{
+  display: inline;
+  padding: 20px;
+  border-bottom: 20px;
+  margin-bottom: 15px;
+}
+li{
+  display: inline;
+  padding: 20px;
+  border-bottom: 200px;
+  margin-bottom: 115px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+ul{
+  padding-bottom: 20px;
+}
+a:hover{
+  color: chartreuse;
+  font-size: 20px;
+  text-shadow: darkgray;
+  text-decoration: none;
+}
+#home h2{Font-weight: 900;
+Font-size:26px;
+Font-family: Nunito Sans;}
+
+a:active{
+  color: aquamarine;
+}
+#services ul li{
+  display: inline;
+  line-height: 0pc;
+
+}
+#services{
+  padding: 10px;
+}
+#button{
+  background-color: blanchedalmond;
+  color: blueviolet;
+  cursor: pointer;
+  font-weight: bolder;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-align: center;
+  padding: 50px;
+  font-size: larger;
+}
+ #button:hover {
+  background-color: indigo;
+  color: aqua;
+}
+#contact{
+  color: blue;
+  text-align: center;
+  display: block;
+  white-space: pre-line;
+}
